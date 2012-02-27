@@ -1,0 +1,30 @@
+#include <iostream>
+#include <fstream>
+#include <sstream>
+using namespace std;
+int main()
+{
+    string filename = "中文测试";
+    ifstream infile(filename.c_str());
+    if (!infile)
+    {
+	cerr << "can't open file" << endl;
+	return 1;
+    }
+    wistringstream linestream;
+    string line, word;
+    while (!infile.eof())
+    {
+	getline(infile, line);
+	wcout << "***********Original line************\n" << line << endl;
+	linestream.str(line);
+	wcout << "***********Separated*************" << endl;
+	while (linestream >> word)
+	    wcout << word << " ";
+	wcout << endl;
+	linestream.clear();
+	//linestream.str("");
+    }
+    infile.close();
+    return 0;
+}

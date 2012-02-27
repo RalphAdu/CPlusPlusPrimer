@@ -1,0 +1,13 @@
+test1
+test2
+test3
+tesr4
+Specification
+
+Because the .doc file format was a closed specification for many years, inconsistent handling of the format persists and may cause some loss of formatting information when handling the same file with multiple word processing programs. Some specifications for MS Office 97 binary file formats were published in 1997 under a restrictive license, but these specifications were removed from online download in 1999.[2][3][4][5] Specifications of later versions of MS Office binary file formats were not publicly available. The DOC format specification was available from Microsoft on request[6] since 2006[7] under restrictive RAND-Z terms until February 2008. Following reverse engineering the documentation which was done by Sun and OpenOffice.org,[8] Microsoft released a .DOC format specification[9] under the Microsoft Open Specification Promise.[10][11] However, this specification does not describe all of the features used by DOC format and reverse engineering remains necessary.[12]
+
+Other file formats
+
+Some historical documentations may use the .doc filename extension for plain-text file format. The .doc filename extension was also used in historical versions of WordPerfect for its proprietary format.
+
+Some software applications use the name "DOC" in combination with other words (such as the name of software manufacturer) for different file formats. As an example, on the Palm OS, DOC is shorthand for PalmDoc, a completely unrelated format (commonly using filename extension ".pdb") used to encode text files such as ebooks.
